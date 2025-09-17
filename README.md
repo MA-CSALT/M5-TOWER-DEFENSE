@@ -24,7 +24,7 @@ Je schets bevat minimaal:
 4. De UI onderdelen geld, wave teller, levens, startknop en pauzeknop.
 5. Een legenda met symbolen of kleuren voor torens, vijanden, pad, basis en UI.
 
-![schets](readmeassets/schetsc.png)
+![schets](readmeassets/schetsc2.png)
 
 ## 4. Torens
 Toren 1 naam, bereik, schade, unieke eigenschap.
