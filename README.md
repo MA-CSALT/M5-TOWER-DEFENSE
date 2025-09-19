@@ -27,12 +27,13 @@ Je schets bevat minimaal:
 ![schets](readmeassets/schetsc2.png)
 
 ## 4. Torens
-Toren 1 naam, bereik, schade, unieke eigenschap.
-Boefie, poot slag, medium damage, ?
-Toren 2 naam, bereik, schade, unieke eigenschap.
-Poekie, laser ogen, high damage, ?
+
+Boefie, poot slag, small range, medium damage
+
+Poekie, meow, long range, medium damage
 
 Eventuele extra torens:
+Rocky, laser ogen, medium range, high damage
 
 ## 5. Vijanden
 Vijand 1 naam, snelheid, levens, speciale eigenschap.
@@ -47,14 +48,14 @@ Beschrijf in drie tot vijf stappen wat de speler steeds doet.
 
 2. geld maken
 
-3.
+3. enemys vermoorden
 
 4.
 
 5.
 
 ## 7. Progressie
-Leg uit hoe het spel moeilijker wordt naarmate de waves doorgaan. Denk aan sterkere vijanden, kortere tussenpozen, hogere kosten of lagere beloningen.
+je moet wijs zijn met je geld omdat je later de high damage die meer kost nodig heb, maar je verdient niet meer geld per wave terwijl de enemys wel sterker worden
 
 ## 8. Risico’s en oplossingen volgens PIO
 - Probleem 1:
