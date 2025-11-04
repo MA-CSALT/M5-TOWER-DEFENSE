@@ -1,4 +1,4 @@
-[build](Build)
+[build](BUILD)
 
 
 # Sprint 0 - Game Design Document : Tower Defense
