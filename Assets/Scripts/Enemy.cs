@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
             HP -= 25f;
             if (HP <= 0)
             {
-                other.gameObject.GetComponent<Projectile>().target = null;
+                other.gameObject.GetComponent<Projectile>().Target = null;
                 //Debug.Log("destroying enemy" + gameObject + " " +gameObject.name + " by "+ other.gameObject.name);
                 //gameObject.tag = "Untagged";
                 Destroy(gameObject);

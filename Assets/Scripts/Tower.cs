@@ -29,7 +29,7 @@ public class Tower : MonoBehaviour
             projectileGameObject.transform.position = transform.position;
             Projectile projectile = projectileGameObject.GetComponent<Projectile>();
             //Debug.Log("shoot " + target);
-            projectile.target = target;
+            projectile.Target = target;
             }
             yield return new WaitForSeconds(shootInterval);
         }

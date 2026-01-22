@@ -6,9 +6,12 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     [SerializeField] private float speed = 10;
   //  public static event Action DamageEnemy;
+
+    public Transform Target 
+    { get { return target; } set { target = value; } }
     void Start()
     {
 
