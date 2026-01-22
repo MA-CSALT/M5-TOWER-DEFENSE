@@ -14,23 +14,24 @@ public class WaypointFollower : MonoBehaviour
     private void Awake()
     {
         path = FindAnyObjectByType<Path>();
+        
     }
     void Start()
     {
-        transform.position = path.waypoints[0].position;
+        transform.position = path.Waypoints[0].position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, path.waypoints[nextWaypointIndex].position, Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, path.Waypoints[nextWaypointIndex].position, Time.deltaTime * speed);
 
-        if (Vector3.Distance(transform.position, path.waypoints[nextWaypointIndex].position) <= reachedWaypointClearance) 
+        if (Vector3.Distance(transform.position, path.Waypoints[nextWaypointIndex].position) <= reachedWaypointClearance) 
         { 
             nextWaypointIndex = nextWaypointIndex + 1;
         }
 
-        if (nextWaypointIndex >= path.waypoints.Length) 
+        if (nextWaypointIndex >= path.Waypoints.Length) 
         {
             nextWaypointIndex = 0;
         }

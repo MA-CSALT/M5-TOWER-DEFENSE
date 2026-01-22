@@ -5,7 +5,9 @@ using UnityEngine;
 public class Path : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Transform[] waypoints;
+    [SerializeField]private Transform[] waypoints;
+
+    public Transform[] Waypoints { get { return waypoints; } }
     void Start()
     {
         
